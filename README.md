@@ -15,13 +15,13 @@ First, add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  whatsapp_share: ^1.1.1
+  whatsapp_file_share: ^1.0.0
 ```
 
 Now in your Dart code, you can use:
 
 ```
-import 'package:whatsapp_share/whatsapp_share.dart';
+import 'package:whatsapp_file_share/whatsapp_file_share.dart';
 ```
 
 ## Installation (Platform Specific)
