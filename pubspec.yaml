@@ -1,9 +1,9 @@
 name: whatsapp_file_share
 description: "A Flutter plugin to share files and text to WhatsApp and WhatsApp Business"
 version: 1.0.0
-homepage: https://github.com/yourusername/whatsapp_share
-repository: https://github.com/yourusername/whatsapp_share
-issue_tracker: https://github.com/yourusername/whatsapp_share/issues
+homepage: https://github.com/venky9885/whatsapp_file_share_flutter/blob/main/README.md
+repository: https://github.com/venky9885/whatsapp_file_share_flutter
+issue_tracker: https://github.com/venky9885/whatsapp_file_share_flutter/issues
 
 environment:
   sdk: ^3.7.2
