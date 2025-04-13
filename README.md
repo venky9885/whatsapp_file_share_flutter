@@ -83,14 +83,14 @@ Here is an snippets app displaying the two whatsapp share methods .
 
 ```Dart
  Future<void> isInstalled() async {
-    final val = await WhatsappShare.isInstalled(
+    final val = await WhatsappFileShare.isInstalled(
       package: Package.businessWhatsapp
     );
     print('Whatsapp Business is installed: $val');
   }
 ```
 
-<small>If whatsapp is not installed, please do not call `WhatsappShare.share()` and `WhatsappShare.shareFile()`
+<small>If whatsapp is not installed, please do not call `WhatsappFileShare.share()` and `WhatsappFileShare.shareFile()`
 </small>
 
 ### Share text, links
@@ -98,7 +98,7 @@ Here is an snippets app displaying the two whatsapp share methods .
 ```Dart
 
  Future<void> share() async {
-    await WhatsappShare.share(
+    await WhatsappFileShare.share(
       text: 'Whatsapp share text',
       linkUrl: 'https://flutter.dev/',
       phone: '911234567890',
@@ -114,7 +114,7 @@ Here is an snippets app displaying the two whatsapp share methods .
 ```Dart
 
  Future<void> shareFile() async {
-    await WhatsappShare.shareFile(
+    await WhatsappFileShare.shareFile(
       phone: '911234567890',
       filePath: [_image1.path, _image2.path],
     );
