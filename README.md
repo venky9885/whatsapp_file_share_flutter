@@ -26,18 +26,7 @@ import 'package:whatsapp_file_share/whatsapp_file_share.dart';
 
 ## Installation (Platform Specific)
 
-### iOS
-
-Add if not exists one row to the `ios/podfile` after target runner:
-
-```
-...
-
-target 'Runner' do
-    use_frameworks!
-
-...
-```
+Currently Supports only Android Platform
 
 ### Android
 
