@@ -62,7 +62,7 @@ Add to `AndroidManifest.xml`:
 
 Obs: You can change the android:name if you have an extension of file provider.
 
-Add `res/xml/provider_paths.xml`:
+Add `res/xml/file_paths.xml`:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -120,4 +120,14 @@ Here is an snippets app displaying the two whatsapp share methods .
     );
   }
 
+//Below code is for specific to package type
+
+  await WhatsappFileShare.shareFile(
+    package: type == WhatsappPackage.businessWhatsapp
+        ? Package.businessWhatsapp
+        : Package.whatsapp,
+    text: text,
+    phone: '91$number',
+    filePath: [path],
+  );
 ```
